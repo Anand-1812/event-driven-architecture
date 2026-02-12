@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Event Driven Architecture
 
-## Getting Started
+__Some Concepts__
 
-First, run the development server:
+1. In an event driven architecture
+ - Producers: Generates events and publish them to an event stream
+ - Consumers: Subscribe to and handle the events they are interested interested
+ - Broker: Middleware handelling the traffic (RabbitMQ, Kafka)
+ - Event: Message caputuring specific action (e.g. UserCreated, PaymentProcessed)
+ - Event Bus: The comunication layer that delivers events from producers to consumer
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Advantages:
+ - Losse Coupling (Modularity): Isolation of components
+ - Scalability: asychronous events processing, workload can be distributed
+ - Extensibiliy: Adding feature is simple
+ - Resilience: Components can fail or restart independently
