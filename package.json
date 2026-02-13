@@ -1,0 +1,24 @@
+{
+  "name": "event-driven-architecture",
+  "version": "1.0.0",
+  "description": "__Some Concepts__",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anand-1812/event-driven-architecture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anand-1812/event-driven-architecture/issues"
+  },
+  "homepage": "https://github.com/Anand-1812/event-driven-architecture#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
