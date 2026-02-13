@@ -1,6 +1,6 @@
 type EventHandler<T> = (payload: T) => void;
 
-export class EventsBus {
+export default class EventsBus {
   private listeners: Map<string, EventHandler<any>[]> = new Map();
 
   emit<T>(eventName: string, payload: T): void {
