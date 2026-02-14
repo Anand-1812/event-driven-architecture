@@ -1,4 +1,4 @@
-import { EventsBus } from "../event-bus.js";
+import EventsBus from "../event-bus.js";
 import type { UserCreatedPayload } from "../events/events.js";
 
 export class UserService {

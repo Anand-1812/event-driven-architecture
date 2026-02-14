@@ -1,0 +1,1 @@
+{"version":3,"file":"analytics-listener.js","sourceRoot":"","sources":["analytics-listener.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,iBAAiB,CAAC;AAGxC,MAAM,UAAU,oBAAoB,CAAC,QAAmB;IACtD,QAAQ,CAAC,EAAE,CAAqB;QAC9B,SAAS,EAAE,aAAa;QACxB,OAAO,EAAE,CAAC,KAAK,EAAE,EAAE;YACjB,OAAO,CAAC,GAAG,CAAC,sBAAsB,KAAK,CAAC,MAAM,EAAE,CAAC,CAAC;QACpD,CAAC;KACF,CAAC,CAAC;AACL,CAAC"}

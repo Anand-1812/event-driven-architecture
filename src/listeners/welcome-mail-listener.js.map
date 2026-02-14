@@ -1,0 +1,1 @@
+{"version":3,"file":"welcome-mail-listener.js","sourceRoot":"","sources":["welcome-mail-listener.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,iBAAiB,CAAC;AAGxC,MAAM,UAAU,yBAAyB,CAAC,QAAmB;IAC3D,QAAQ,CAAC,EAAE,CAAqB;QAC9B,SAAS,EAAE,aAAa;QACxB,OAAO,EAAE,CAAC,KAAK,EAAE,EAAE;YACjB,OAAO,CAAC,GAAG,CAAC,2BAA2B,KAAK,CAAC,KAAK,EAAE,CAAC,CAAC;QACxD,CAAC;KACF,CAAC,CAAC;AACL,CAAC"}
